@@ -7,7 +7,7 @@ import weather from '../../public/weather.png';
 export const DATA = {
   name: 'Dev Bhuptani',
   initials: 'DB',
-  url: 'https://dillion.io',
+  url: 'https://devbhuptani.vercel.app/',
   location: 'Gujarat, IN',
   locationLink: 'https://www.google.com/maps/place/Gujarat',
   description:
