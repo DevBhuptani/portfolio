@@ -1,5 +1,8 @@
 import { Icons } from '@/components/icons';
 import { HomeIcon } from 'lucide-react';
+import starkai from '../../public/starkai.png';
+import unsplash from '../../public/unsplash.png';
+import weather from '../../public/weather.png';
 
 export const DATA = {
   name: 'Dev Bhuptani',
@@ -100,7 +103,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: '',
+      image: starkai,
       video: '',
     },
     {
@@ -122,9 +125,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: '',
-      video:
-        'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4',
+      image: weather,
+      video: '',
     },
     {
       title: 'Image Search App 📸',
@@ -145,8 +147,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: '',
-      video: 'https://cdn.magicui.design/bento-grid.mp4',
+      image: unsplash,
+      video: '',
     },
   ],
 } as const;
