@@ -53,10 +53,16 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      email: {
+      Email: {
         name: 'Send Email',
         url: 'mailto:devbhuptani20@gmail.com',
         icon: Icons.email,
+        navbar: true,
+      },
+      Resume: {
+        name: 'Resume',
+        url: 'https://drive.google.com/file/d/16azex0g5BvStXEiW7wjXoog-qu-t7kCi/view?usp=sharing',
+        icon: Icons.googleDrive,
         navbar: true,
       },
     },
