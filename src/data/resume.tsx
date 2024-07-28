@@ -61,7 +61,7 @@ export const DATA = {
       },
       Resume: {
         name: 'Resume',
-        url: process.env.NEXT_PUBLIC_RESUME_LINK,
+        url: process.env.NEXT_PUBLIC_RESUME_LINK || '',
         icon: Icons.googleDrive,
         navbar: true,
       },
